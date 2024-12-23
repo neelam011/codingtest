@@ -82,8 +82,6 @@ public class callOutclass extends baseClass{
 		if(Signupvalue1==true)
 		{
 			System.out.println(Signupvalue1);
-			//signup.click();
-			
 			JavascriptExecutor js1=(JavascriptExecutor)driver;
 			js1.executeScript("arguments[0].click()",signup);
 			
